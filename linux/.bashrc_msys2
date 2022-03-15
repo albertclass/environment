@@ -1,8 +1,0 @@
-alias ls='ls -F --color=auto --show-control-chars'
-alias ll='ls -l'
-export LC_ALL=zh_CN.UTF-8
-
-source ~/.git-completion.bash
-source ~/.git-prompt.sh
-export PS1='\n\[\033[32m\][\u]\[\033[33m\] \w\[\033[36m\]`__git_ps1 ` \[\033[0m\]\n$ '
-
