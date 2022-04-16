@@ -20,3 +20,8 @@ git config --global user.name Albert.Xu
 git config --global user.email windxu@126.com
 # git config --global http.proxy socks5://127.0.0.1:8011
 # git config --global https.proxy socks5://127.0.0.1:8011
+
+cp git-completion.bash ~ 
+cp git-prompt.sh ~
+
+
