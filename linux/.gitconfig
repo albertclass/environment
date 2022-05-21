@@ -1,0 +1,28 @@
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+	ls = log --color --decorate --pretty format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen (%cr) %C(bold blue)<%an>%Creset' --abbrev-commit -20
+	l1 = log --color --decorate --pretty format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen (%cr) %C(bold blue)<%an>%Creset' --abbrev-commit -1
+	lf = log --color --graph --decorate --pretty format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen (%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	sm = submodule
+[i18n]
+	commitencoding = utf-8
+	logoutputencoding = utf-8
+[core]
+	quotepath = false
+	editor = code --wait
+[user]
+	name = Albert.Xu
+	email = windxu@126.com
+[pull]
+	rebase = false
+[diff]
+	tool = code
+[merge]
+	tool = code
+[difftool "code"]
+	cmd = "code --wait --diff  "
+[mergetool "code"]
+	cmd = "code --wait "
